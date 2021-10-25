@@ -1,5 +1,9 @@
-import styles from "../styles/Home.module.css";
+import Presente from "../components/Presente";
 
 export default function Home() {
-  return <div className={styles.container}></div>;
+  return (
+    <div>
+      <Presente />
+    </div>
+  );
 }
